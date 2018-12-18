@@ -1,11 +1,11 @@
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 carillonPlayer
 ====
-* arduinoで鉄琴演奏ロボット 
-![result](https://github.com/chakio/spectrumAnalyzer/blob/master/media/spectrumAnalyzer.gif) 
+* arduinoで鉄琴演奏ロボット  
+![result](https://github.com/chakio/carillonPlayer/blob/master/media/carillonPlayer.gif) 
 ## Description
-音響機器によく搭載されていたスペクトラムアナライザーをarduinoとLEDバーで作成しました。  
-音の可視化方法のひとつとして作ってみたかったものです。
+音データの可視化の一つとして、鉄琴演奏ロボットを作成しました。
+自作の円弧状に並ぶ鉄琴をサーボモータとソレノイドを駆使して演奏します。
 ## Composition
 * マイコン: arduino micro
 * LED: WS2812B
