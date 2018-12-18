@@ -4,12 +4,14 @@ carillonPlayer
 * arduinoで鉄琴演奏ロボット  
 ![result](https://github.com/chakio/carillonPlayer/blob/master/media/carillonPlayer.gif) 
 ## Description
-音データの可視化の一つとして、鉄琴演奏ロボットを作成しました。
+音データの可視化の一つとして、鉄琴演奏ロボットを作成しました。  
 自作の円弧状に並ぶ鉄琴をサーボモータとソレノイドを駆使して演奏します。
+音付きの映像は[youtube](https://www.youtube.com/watch?v=UpVMlNcHM6o&feature=em-share_video_user)に公開しています。  
+制作 2017年10月下旬〜12月初旬
 ## Composition
-* マイコン: arduino micro
-* LED: WS2812B
-* IC: MSGEQ7P
+* マイコン: arduino mega
+* ソレノイド: タカハ機工株式会社 CB1037×2
+* サーボモータ（腕,腰）:GWSサーボ　S03T×3
 ## Detail
 ![result](https://github.com/chakio/spectrumAnalyzer/blob/master/media/IMG_9826.JPG)  
 筐体はシームレスで真っ黒になるように設計しました。  
@@ -31,7 +33,3 @@ carillonPlayer
 ![result](https://github.com/chakio/spectrumAnalyzer/blob/master/media/IMG_9834.JPG)   
 ![result](https://github.com/chakio/spectrumAnalyzer/blob/master/media/IMG_9835.JPG)   
 回路周りはユニバーサル基板に手半田で作成しています。
-
-## Appendix
-![result](https://github.com/chakio/spectrumAnalyzer/blob/master/media/IMG_9829.JPG)   
-側面が虹色でかっこいいです。
