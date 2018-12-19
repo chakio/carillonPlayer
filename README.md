@@ -31,7 +31,8 @@ carillonPlayer
 腕部分は２つのパーツから構成されています。  
 [１つ目](https://github.com/chakio/carillonPlayer/blob/master/model/solenoidHolder.stl)は、サーボモータにソレノイドを固定するパーツです。  
 [２つ目](https://github.com/chakio/carillonPlayer/blob/master/model/stickHolder.stl)は、バチを把持するパーツです。  
-これらを太めのネジで固定することで、ソレノイドの直動の力を回転に変換しています。
+これらを太めのネジで固定することで、ソレノイドの直動の力を回転に変換しています。  
+また、一度下がったバチを元の位置に戻すために、輪ゴムを使用しています。  
 このセットを２つ用意し、人と同じように双腕で演奏を行います。  
 最後に、これらのパーツを[腰パーツ](https://github.com/chakio/carillonPlayer/blob/master/model/servoHolder.stl)に固定します。  
 
@@ -61,7 +62,7 @@ arduino、サーボモータ用とソレノイド用にそれぞれ別電源を�
 また、ソレノイドはトランジスタで制御しています。  
 ユニバーサル基板に手半田で作成しています。  
 （arduinoは安価な互換機を使用しています）
-  
+
 
 * Program
 
