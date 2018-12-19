@@ -22,6 +22,7 @@ carillonPlayer
 制作当初、すべてのアクチュエータにサーボモータを使用することを考えていました。しかし、プロトタイプの中で、サーボモータでスナップを効かせることは非常に困難であることに気が付き、代わりのアクチュエータとしてソレノイドを採用しました。  
 ソレノイドは非常に応答性がよく、一瞬だけ鉄琴を叩くという動作に適しているためです。 
 以下の画像が、腕部分に着目した画像です。 
+
 <img src="https://github.com/chakio/carillonPlayer/blob/master/media/side.jpg" width="500px">  
 腕部分は２つのパーツから構成されています。  
 [１つ目](https://github.com/chakio/carillonPlayer/blob/master/model/solenoidHolder.stl)は、サーボモータにソレノイドを固定するパーツです。  
@@ -39,8 +40,8 @@ carillonPlayer
 一番下の箱には回路などが格納されています。  
 
 回路については以下の写真のとおりです。
-<img src="https://github.com/chakio/carillonPlayer/blob/master/media/inside.png" width="500px">  
-<img src="https://github.com/chakio/carillonPlayer/blob/master/mediabottom.jpg" width="500px">    
+<img src="https://github.com/chakio/carillonPlayer/blob/master/media/inside.jpg" width="500px">  
+<img src="https://github.com/chakio/carillonPlayer/blob/master/media/bottom.jpg" width="500px">    
 arduino、サーボモータ用とソレノイド用にそれぞれ別電源を用意しています。  
 また、ソレノイドはトランジスタで制御しています。
 
