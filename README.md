@@ -45,7 +45,7 @@ carillonPlayer
 
 <img src="https://github.com/chakio/carillonPlayer/blob/master/media/front.jpg" width="500px">  
 
-[２つの腕を固定するパーツ](https://github.com/chakio/carillonPlayer/blob/master/model/servoHolder.stl)にもうひとつサーボモータを格納できるよう改良しました。   
+２つの腕を固定する腰パーツに、もうひとつサーボモータを格納できるよう改良しました。   
 回転をスムーズにすることと、サーボモータが痛むことを避けることを目的に４つのボールキャスターで支えるにしています。  
 一番下の箱には回路などが格納されています。
 
