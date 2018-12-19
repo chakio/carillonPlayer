@@ -21,7 +21,8 @@ carillonPlayer
 
 鉄琴を叩く際、重要となるのは叩く際のスナップです。  
 叩いた後にすぐに鉄琴からバチを離さないと、響かなくなってしまうためです。  
-制作当初、すべてのアクチュエータにサーボモータを使用することを考えていました。しかし、プロトタイプの中で、サーボモータでスナップを効かせることは非常に困難であることに気が付き、代わりのアクチュエータとしてソレノイドを採用しました。  
+制作当初、すべてのアクチュエータにサーボモータを使用することを考えていました。  
+しかし、プロトタイプの中で、サーボモータでスナップを効かせることは非常に困難であることがわかり、代わりのアクチュエータとしてソレノイドを採用しました。  
 ソレノイドは非常に応答性がよく、一瞬だけ鉄琴を叩くという動作に適しているためです。   
 以下の画像が、腕部分に着目した画像です。 
 
@@ -33,10 +34,14 @@ carillonPlayer
 これらを太めのネジで固定することで、ソレノイドの直動の力を回転に変換しています。
 このセットを２つ用意し、人と同じように双腕で演奏を行います。  
 最後に、これらのパーツを[腰パーツ](https://github.com/chakio/carillonPlayer/blob/master/model/servoHolder.stl)に固定します。  
+
+
 ![result](https://github.com/chakio/carillonPlayer/blob/master/media/prototype.gif)  
+
 上記動画は、これまで説明した腕部分を使用し制作したプロトタイプのモデルです。  
 小さな動きでリズミカルに叩く姿は愛らしいのですが、腕の速度に制限があり、演奏できる曲に制限がありました。  
-そこで、サーボ自身を良い物に変えるのではなく、人と同様に腰部分に自由度を追加することで、遅い腕の動きを補うことを考えました。  
+そこで、サーボ自身を良い物に変えるのではなく、人と同様に腰部分に自由度を追加することで、遅い腕の動きを補うことを考えました。
+
 <img src="https://github.com/chakio/carillonPlayer/blob/master/media/front.jpg" width="500px">  
 
 [２つの腕を固定するパーツ](https://github.com/chakio/carillonPlayer/blob/master/model/servoHolder.stl)にもうひとつサーボモータを格納できるよう改良しました。   
@@ -46,10 +51,11 @@ carillonPlayer
 * Circuit
 
 回路については以下の写真のとおりです。
+
 <img src="https://github.com/chakio/carillonPlayer/blob/master/media/inside.jpg" width="500px">  
 
 <img src="https://github.com/chakio/carillonPlayer/blob/master/media/bottom.jpg" width="500px"> 
-   
+
 arduino、サーボモータ用とソレノイド用にそれぞれ別電源を用意しています。  
 また、ソレノイドはトランジスタで制御しています。
 
